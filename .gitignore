@@ -1,0 +1,91 @@
+# Mac OS X
+*.DS_Store
+
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+
+# Generated files
+*.o
+*.pyc
+
+
+#Python modules
+MANIFEST
+dist/
+build/
+
+# Backup files
+*~.nib
+
+.idea/
+*.iml
+/VocalTrainer/json/jsoncpp.cpp
+/VocalTrainer/json/json/json.h
+/VocalTrainer/json/json/json-forwards.h
+/VocalTrainerWinCLI/.vs/VocalTrainer/v15/Solution.VC.db-wal
+/VocalTrainerWinCLI/.vs/VocalTrainer/v15/Solution.VC.db-shm
+/VocalTrainerWinCLI/.vs/VocalTrainer/v15/Solution.VC.db
+/VocalTrainerWinCLI/.vs/VocalTrainer/v15/Browse.VC.opendb
+/VocalTrainerWinCLI/.vs/VocalTrainer/v15/Browse.VC.db
+*.suo
+*.ipch
+*.exe
+*.pdb
+*.obj
+*.tlog
+*.metagen
+*.dll
+*.exp
+*.ilk
+*.lib
+*.enc
+*.idb
+*.log
+*.asm
+*.res
+*.resources
+*.pch
+*.Cache
+*.iobj
+*.ipdb
+
+# Qt-es
+object_script.*.Release
+object_script.*.Debug
+*_plugin_import.cpp
+.qmake.cache
+.qmake.stash
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+Makefile*
+*build-*
+
+# Qt unit tests
+target_wrapper.*
+
+# QtCreator
+*.autosave
+
+# QtCreator Qml
+*.qmlproject.user
+*.qmlproject.user.*
+
+# QtCreator CMake
+CMakeLists.txt.user
+
+QVocalTrainer/QtVocalTrainer.build
